@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Simon Mckindley">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="profile-wrapper">
+      <div class="profile">
+        <img id="profile-image" width="100" src="images/image-jeremy.png" alt="user-icon">
+        <div>
+          <div class="small-text">Report for</div>
+          <div id="profile-name" class="profile-name">Jeremy Robson</div>
+        </div>
+      </div>
+      <div class="period-controls">
+        <input type="radio" name="period" id="daily" value="daily" checked>
+        <label for="daily">Daily</label>
+        <input type="radio" name="period" id="weekly" value="weekly">
+        <label for="weekly">Weekly</label>
+        <input type="radio" name="period" id="monthly" value="monthly">
+        <label for="monthly">Monthly</label>
+      </div>
+    </div>
+
+    <div id="work" class="card">
+      <img width="80" src="images/icon-work.svg" alt="Work">
+      <!-- Template -->
+      <!-- <div class="card-inner">
+        <div class="card-header">
+          <div>Work</div>
+          <button type="button">
+            <img width="21" src="images/icon-ellipsis.svg" alt="ellipsis">
+          </button>
+        </div>
+        <div class="card-lower">
+          <div class="card-data">5hrs</div>
+          <div class="card-footer small-text">Previous - 7hrs</div>
+        </div> 
+      </div> -->
+    </div>
+
+    <div id="play" class="card">
+      <img width="80" src="images/icon-play.svg" alt="Play">
+    </div>
+
+    <div id="study" class="card">
+      <img src="images/icon-study.svg" alt="Study">
+    </div>
+
+    <div id="exercise" class="card">
+      <img src="images/icon-exercise.svg" alt="Exercise">
+    </div>
+
+    <div id="social" class="card">
+      <img src="images/icon-social.svg" alt="Social">
+    </div>
+
+    <div id="self-care" class="card">
+      <img src="images/icon-self-care.svg" alt="Self Care">
+    </div>
+
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
